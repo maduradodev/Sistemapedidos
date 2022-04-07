@@ -1,0 +1,68 @@
+/* main */
+
+
+@media print {
+  .print {
+      background-color: white;
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin: 0;
+      padding: 15px;
+      font-size: 14px;
+      line-height: 18px;
+  }
+}
+
+body {
+  background-color:#71bf49;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+nav {
+  background-color: #FFFFFF;
+}
+
+.lunchbox-card{
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius:3px;
+  padding:1%;
+  width:100%;
+  text-align:center;
+}
+
+.lunchbox-card h5 {
+  color: #71bf49;
+}
+
+.lunchbox-card img{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #71bf49;
+}
+
+.lunchbox-card input[type="radio"]{
+  width: 20px;
+  height: 20px;
+  margin-top: 10%;
+}
+
+.lunchbox-form .control{
+  margin: auto;
+}
+
+.lunchbox-form button{
+  color:#71bf49;
+  text-decoration:none;
+}
+
+.button {
+  color:#71bf49;
+}
